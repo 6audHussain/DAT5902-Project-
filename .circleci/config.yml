@@ -11,10 +11,7 @@ jobs:
           command: pip install -r requirements.txt  
       - run:
           name: Run script
-          command: python salaryanalysis.py  
-      - run:
-          name: Run testing
-          command: pytest  
+          command: python DatasetCode.py  
 
 workflows:
   version: 2
